@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 
-gem 'turbolinks'
+gem 'turbolinks', '2.5.3'
 
 gem 'bootstrap-sass'
 
@@ -37,7 +37,7 @@ end
 gem 'jquery-rails'
 
 group :test, :development do
-  gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-rails', '>=3.4.0'
   gem 'guard-rspec'
   gem 'guard-spork'
   gem 'spork'
